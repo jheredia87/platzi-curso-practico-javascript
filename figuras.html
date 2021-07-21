@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso de JS</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+    </header>
+    <section>
+        <h2>Cuadrado</h2>
+        <div>
+            <input id="txt_cuadrado" type="number" placeholder="Lado del Cuadrado">
+            <button type="button" onclick="CalcularCuadrado();">Calcular</button>
+            <label for="perimetroCuadrado">Perimetro Cuadrado</label>
+            <input id="perimetroCuadrado" type="text">
+            <label for="areaCuadrado">Área Cuadrado</label>
+            <input id="areaCuadrado" type="text">
+        </div>
+    </section>
+    <section>
+        <h2>Triangulo</h2>
+        <div>
+            <input id="lado1" type="number" placeholder="Lado 1">
+            <input id="lado2" type="number" placeholder="Lado 2">
+            <input id="base" type="number" placeholder="Base">
+            <input id="altura" type="number" placeholder="Altura">
+            <button type="button" onclick="CalcularTriangulo();">Calcular</button>
+            <label for="perimetroTriangulo">Perimetro Triangulo</label>
+            <input id="perimetroTriangulo" type="text">
+            <label for="areaTriangulo">Área Triangulo</label>
+            <input id="areaTriangulo" type="text">
+        </div>
+    </section>
+    <section>
+        <h2>Circulo</h2>
+        <div>
+            <input id="radio" type="number" placeholder="Radio Circulo">
+            <button type="button" onclick="CalcularCirculo();">Calcular</button>
+            <label for="perimetroCirculo">Perimetro Circulo</label>
+            <input id="perimetroCirculo" type="text">
+            <label for="areaCirculo">Área Circulo</label>
+            <input id="areaCirculo" type="text">
+        </div>
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
